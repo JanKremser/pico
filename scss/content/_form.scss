@@ -132,6 +132,17 @@ fieldset legend {
   font-weight: var(--form-label-font-weight, var(--font-weight));
 }
 
+label[slim] {
+    position: absolute;
+    margin-top: -0.8rem;
+    margin-left: 1rem;
+    padding: 0.2rem;
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--form-element-background-color);
+    font-size: 0.8rem;
+}
+
 // Blocks, 100%
 input:not([type="checkbox"], [type="radio"]),
 select,

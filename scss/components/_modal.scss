@@ -45,13 +45,12 @@ dialog {
 
     > header,
     > footer {
-      padding: calc(var(--block-spacing-vertical) * 0.5)
+      padding: calc(var(--block-spacing-vertical) * 0.3)
         var(--block-spacing-horizontal);
     }
 
     > header {
       .close {
-        margin: 0;
         margin-left: var(--spacing);
         float: right;
       }
@@ -81,7 +80,6 @@ dialog {
         display: block;
         width: 1rem;
         height: 1rem;
-        margin-top: calc(var(--block-spacing-vertical) * -0.5);
         margin-bottom: var(--typography-spacing-vertical);
         margin-left: auto;
         background-image: var(--icon-close);
